@@ -1,0 +1,15 @@
+D:\Разработка\OrderHub\src\OrderHub\bin\Debug\net10.0\OrderHub.exe
+D:\Разработка\OrderHub\src\OrderHub\bin\Debug\net10.0\OrderHub.deps.json
+D:\Разработка\OrderHub\src\OrderHub\bin\Debug\net10.0\OrderHub.runtimeconfig.json
+D:\Разработка\OrderHub\src\OrderHub\bin\Debug\net10.0\OrderHub.dll
+D:\Разработка\OrderHub\src\OrderHub\bin\Debug\net10.0\OrderHub.pdb
+D:\Разработка\OrderHub\src\OrderHub\obj\Debug\net10.0\OrderHub.GeneratedMSBuildEditorConfig.editorconfig
+D:\Разработка\OrderHub\src\OrderHub\obj\Debug\net10.0\OrderHub.AssemblyInfoInputs.cache
+D:\Разработка\OrderHub\src\OrderHub\obj\Debug\net10.0\OrderHub.AssemblyInfo.cs
+D:\Разработка\OrderHub\src\OrderHub\obj\Debug\net10.0\OrderHub.csproj.CoreCompileInputs.cache
+D:\Разработка\OrderHub\src\OrderHub\obj\Debug\net10.0\OrderHub.sourcelink.json
+D:\Разработка\OrderHub\src\OrderHub\obj\Debug\net10.0\OrderHub.dll
+D:\Разработка\OrderHub\src\OrderHub\obj\Debug\net10.0\refint\OrderHub.dll
+D:\Разработка\OrderHub\src\OrderHub\obj\Debug\net10.0\OrderHub.pdb
+D:\Разработка\OrderHub\src\OrderHub\obj\Debug\net10.0\OrderHub.genruntimeconfig.cache
+D:\Разработка\OrderHub\src\OrderHub\obj\Debug\net10.0\ref\OrderHub.dll
