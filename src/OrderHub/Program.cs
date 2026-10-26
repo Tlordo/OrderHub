@@ -72,3 +72,17 @@ bool hasMouse = warehouse.TryGetStock("Мышь", out int mouseQty);
 Console.WriteLine($"TryGetStock(\"Мышь\") = {hasMouse}, количество = {mouseQty}");
 warehouse.Sell("Монитор", 2);         // остаток станет 0 — запись удаляется через Remove
 warehouse.PrintStock();
+
+// ===== Этап 4. КТ34: IComparable<T>, IComparer<T> =====
+Console.WriteLine();
+Console.WriteLine("===== Этап 4. Сортировка каталога =====");
+
+var catalog = new CatalogService();
+foreach (var (name, price, category) in SeedData.Products)
+    catalog.AddProduct(name, price, category);
+
+catalog.PrintAll();
+catalog.PrintSortedByNaturalOrder();
+catalog.PrintSortedByName();
+catalog.PrintSortedByPriceDesc();
+catalog.PrintSortedByNameLength();

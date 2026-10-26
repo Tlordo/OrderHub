@@ -13,10 +13,10 @@ dotnet run --project src/OrderHub
 
 | Этап | Тема | Статус |
 |------|------|--------|
-| 1 | КТ31. List<T>, Stack<T>, Queue<T> | — |
-| 2 | КТ32. LinkedList<T> | — |
-| 3 | КТ33. Dictionary<TKey, TValue> | — |
-| 4 | КТ34. IComparable<T>, IComparer<T> | — |
+| 1 | КТ31. List<T>, Stack<T>, Queue<T> | ✅ OrderService: список, очередь, стек отмены |
+| 2 | КТ32. LinkedList<T> | ✅ история заказов, вставка AddAfter |
+| 3 | КТ33. Dictionary<TKey, TValue> | ✅ WarehouseService, TryGetValue/Remove |
+| 4 | КТ34. IComparable<T>, IComparer<T> | ✅ CatalogService, 3+ способа сортировки |
 | 5 | КТ35. LINQ: базовые запросы | — |
 | 6 | КТ36. LINQ: проекции и группировка | — |
 | 7 | КТ37. LINQ-запросы к коллекциям | — |
