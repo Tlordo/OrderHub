@@ -54,3 +54,21 @@ Console.WriteLine($"TryFindOrder(\"Иванов\") = {foundIvanov}: {found}");
 // ЗАДАЧА: вызовите TryFindOrder("Нет такого", out _) и убедитесь, что метод вернул false
 bool foundMissing = service.TryFindOrder("Нет такого", out _);
 Console.WriteLine($"TryFindOrder(\"Нет такого\") = {foundMissing}");
+
+// ===== Этап 3. КТ33: Dictionary<TKey, TValue> =====
+Console.WriteLine();
+Console.WriteLine("===== Этап 3. Dictionary =====");
+
+var warehouse = new WarehouseService();
+warehouse.Receive("Клавиатура", 10);
+warehouse.Receive("Клавиатура", 5);   // количество должно увеличиться, а не завести вторую запись
+warehouse.Receive("Монитор", 3);
+warehouse.Sell("Монитор", 1);
+warehouse.Sell("Монитор", 99);        // предупреждение: товара недостаточно
+warehouse.Sell("Проектор", 1);        // сообщение: товара нет на складе
+warehouse.PrintStock();
+
+bool hasMouse = warehouse.TryGetStock("Мышь", out int mouseQty);
+Console.WriteLine($"TryGetStock(\"Мышь\") = {hasMouse}, количество = {mouseQty}");
+warehouse.Sell("Монитор", 2);         // остаток станет 0 — запись удаляется через Remove
+warehouse.PrintStock();
